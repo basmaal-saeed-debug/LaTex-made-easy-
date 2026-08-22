@@ -158,6 +158,8 @@ use \begin{aligned} enter your equations and separate using the row breaker \\ a
 $$\begin{aligned}x&=5+2\\ 
 \therefore \ x&=7\end{aligned}$$
 
+also the command \begin{array}{ll} tells it to start two columns for instance 
+\left\{ \begin{array}{ll} x & y \end{array} which would look like 
 
-$$\begin{aligned}&\quad&x+2&=7\\&\therefore&x&=5\end{aligned}$$
+$$\left\{ \begin{array}{ll} x & y \end{array}$$
 
