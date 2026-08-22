@@ -152,8 +152,8 @@ if it needs to be an isolated term you can include curly brackets over the entir
 
 use \begin{aligned} enter your equations and separate using the row breaker \\ and for which you want aligned put an & before it, for instance 
 
-\begin{aligned} x&=5+2\\ 
-\therefore x&=7 \end{aligned}
+\begin{aligned}x&=5+2\\ 
+\therefore x&=7\end{aligned}
 
-$$\begin{aligned} x&=5+2\\ 
-\therefore \ x&=7 \end{aligned}$$
+$$\begin{aligned}x&=5+2\\ 
+\therefore\x&=7\end{aligned}$$
