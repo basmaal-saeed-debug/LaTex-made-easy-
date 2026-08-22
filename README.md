@@ -156,4 +156,4 @@ use \begin{aligned} enter your equations and separate using the row breaker \\ a
 \therefore x&=7 \end{aligned}
 
 $$\begin{aligned} x&=5+2\\ 
-\therefore x&=7 \end{aligned}$$
+\therefore \ x&=7 \end{aligned}$$
