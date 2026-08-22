@@ -152,7 +152,7 @@ and these parenthesis stretch over the entire expression
 
 if it needs to be an isolated term you can include curly brackets over the entire thing, just like those colors form earlier, for instance {\left( some symbol \right)}
 
-# aligning equations 
+# Aligning equations 
 
 use \begin{aligned} enter your equations and separate using the row breaker \\ and for which you want aligned put an & on the area you want aligned, for instance 
 
@@ -168,7 +168,7 @@ $$\begin{aligned}x&=5+2\\
 
  and \phantom is a ghost character which we place before the x so that the two are equal sizes and forces the x to jump to the second position 
  
- $$\begin{aligned}\phantom{\therefore}x&=5+2\\\therefore x&=7\end{aligned}$$
+ \begin{aligned}\phantom{\therefore}x&=5+2\\\therefore x&=7\end{aligned}
 
 and you can match the ghost character with any character you dont want x to be on top for instance 
 
@@ -178,12 +178,7 @@ and you can match the ghost character with any character you dont want x to be o
 x+5 &= 10 \phantom{text{( so x equals 5)}} \\
 x&=5 \quad {text( so x equals 5)} 
 
-this worked perfectly on my auto converter however it wont render on this readme file therefore there is an alternative where you can make that ghost symbol by writing it and multiplying it by 0
+this worked using my auto LaTeX converter but it does not work here for some reason, even coloring the symbol white did not work. We must move on
 
-
-$$\begin{aligned}0(\therefore)x&=5+2\\\thereforex&=7\end{aligned}$$
-
-
-also the command \begin{array}{ll} tells it to start two columns for instance 
 
 
