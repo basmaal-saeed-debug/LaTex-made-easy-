@@ -27,3 +27,60 @@ This is when a quick symbol or variable needs to be embedded within a paragraph,
 
 **Display math** using $$ 
 This is when you have a massive important formula which needs to have its own dedicated space. It forces the equation to center on a brand new line creating a nice amount of breathing room around it. 
+
+**commands** in order to enter a command you must add a backslash when you start it (for short commands such as fractions) and sometimes before you end it (only for multi line workspaces such as a matrix or multiple aligned equations), for instance $$\frac{x}{y}$$ only needs a starting tag and $$\begin{matrix} ... \end{matrix}$$ needs an ending tag. 
+
+Different commands include: 
+
+1. \sqrt{x}  (square root)
+2. \log_{b}(x)  (logarithm)
+3. \ln(x)  (natural log)
+4. \infty   (infinity symbol)
+5. \frac{dy}{dx} (derivative)
+6. \lim_{x \to y} (limit)
+7.  \int f(x)\, dx (indefinite integral wrt to x)
+8.  \int_{a}^{b} f(x) \, dx (definite integral with bounds)
+9.  \sum_{i=1}^{n} (sigma notation)
+10.  \bar{x} (mean of x)
+11.  \in (is a member of)
+12.  \notin (is not a member of)
+13.  \cap  (intersection)
+14.  \cup  (union)
+15.  \text (to input text) 
+
+Now for the symbols, backslash also needs to be used 
+\pi 
+\theta
+\beta 
+basically \anygreekletter
+
+*don't forget those delimiters!!*
+
+**What is {}**
+curly brackets are used to 1. group numbers 2. define the arguments for previously stated commands. The other also matters since $$\frac{1}{2}$$ is 1 over 2 and $$\frac{2}{1}$$ is 2 over 1. Generally the first argument is on top and the second argument will be on the bottom
+
+**superscript and subscript**
+^ is used to say something is superscript or rather on top and _ is for subscript or rather something is under
+
+if you are also wondering why integrals had the term " \,dx " it is since the computer ignores spaces entirely and \, is a command of it's own which tells the computer to add a tiny spacing. 
+
+**more on spacing**
+\, thin space
+
+\: medium space 
+
+\; slightly larger space than medium 
+
+\! pulls characters closer 
+
+\ regular space
+
+\\ row breaker, the equivalent of pressing enter 
+
+\quad 1 full character width of space 
+
+\qquad 2 character widths 
+
+and these are stackable unless you want to use the custom spacer
+for instance  $$x= 5 \hspace{3cm} \text{this gap is exactly three 3 cm wide}$$
+
