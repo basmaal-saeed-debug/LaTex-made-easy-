@@ -162,6 +162,23 @@ use \begin{aligned} enter your equations and separate using the row breaker \\ a
 $$\begin{aligned}x&=5+2\\ 
 \therefore \ x&=7\end{aligned}$$
 
+ to fix that space 
+
+ \begin{aligned}\phantom{\therefore}x&=5+2\\\therefore x&=7\end{aligned}
+
+ and \phantom is a ghost character which we place before the x so that the two are equal sizes and forces the x to jump to the second position 
+ 
+ $$\begin{aligned}\phantom{\therefore}x&=5+2\\\therefore x&=7\end{aligned}$$
+
+and you can match the ghost character with any character you dont want x to be on top for instance 
+
+\phantom{\therefore x} or \phantom{y} or even place phantoms over texts for instance 
+
+$$\begin{aligned} 
+x+5 &= 10 \\
+x&=5 \quad {text( so x equals 5)}$$
+
+
 also the command \begin{array}{ll} tells it to start two columns for instance 
 
 
