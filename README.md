@@ -164,5 +164,5 @@ notice how it makes this space in the first equation for x and =
 \therefore x&=7\end{aligned}
 
 $$\begin{aligned}x=&5+2\\ 
-\therefore \ x&=7\end{aligned}$$
+\therefore \ x=&7\end{aligned}$$
 
