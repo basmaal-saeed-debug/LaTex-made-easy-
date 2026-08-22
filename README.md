@@ -159,7 +159,7 @@ $$\begin{aligned}x&=5+2\\
 \therefore \ x&=7\end{aligned}$$
 
 also the command \begin{array}{ll} tells it to start two columns for instance 
-\left\{ \begin{array}{ll} x & y \end{array} which would look like 
+\left\{ \begin{array}{ll} x & y \end{array}\right.  which would look like 
 
-$$\left\{ \begin{array}{ll} x & y \end{array}$$
+$$\left\{ \begin{array}{ll} x & y \end{array}\right.$$
 
