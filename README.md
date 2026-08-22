@@ -28,7 +28,8 @@ This is when a quick symbol or variable needs to be embedded within a paragraph,
 **Display math** using $$ 
 This is when you have a massive important formula which needs to have its own dedicated space. It forces the equation to center on a brand new line creating a nice amount of breathing room around it. 
 
-**commands** in order to enter a command you must add a backslash when you start it (for short commands such as fractions) and sometimes before you end it (only for multi line workspaces such as a matrix or multiple aligned equations), for instance \frac{x}{y} only needs a starting tag and $$\begin{matrix} ... \end{matrix}$$ needs an ending tag. 
+# Commands
+in order to enter a command you must add a backslash when you start it (for short commands such as fractions) and sometimes before you end it (only for multi line workspaces such as a matrix or multiple aligned equations), for instance \frac{x}{y} only needs a starting tag and $$\begin{matrix} ... \end{matrix}$$ needs an ending tag. 
 
 Different commands include: 
 
@@ -84,3 +85,31 @@ if you are also wondering why integrals had the term " \ ,dx " it is since the c
 and these are stackable unless you want to use the custom spacer
 for instance  x= 5 \hspace{3cm} \text{this is a 3cm width space}
 
+# Colors
+
+in order to color the entire block \color{hexcode}  and use it after the delimiter but before the command 
+in order to color a single segment you must write curly brackets around it for instance y=x+{\color{hexcode}3}-2
+however there is a color dictionary you can say {red} {blue} {green} {cyan} or if you want something really specific input the hex code which starts with # 
+
+# Advanced operations 
+basic operations such as + - = > and < can be used straight from the keyboard however advanced operations it has its own symbols
+
+a \cdot b  a times b with the dot symbol of multiplication
+
+a \times b a times b with the x symbol of multiplication
+
+a \div b a divided by b
+
+a \pm b  a plus minus b 
+
+a \le b or a \leq b a is less than or equal to b
+
+a \ge b or a\geq b a is greater than or equal to b
+
+a \neq b  a is not equal to b 
+
+a \equiv b  a is identically equal to b
+
+a \propto b  a is proportional to b
+
+(f \circ g)(x) composite functions
