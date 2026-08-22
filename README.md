@@ -62,7 +62,7 @@ curly brackets are used to 1. group numbers 2. define the arguments for previous
 **superscript and subscript**
 ^ is used to say something is superscript or rather on top and _ is for subscript or rather something is under
 
-if you are also wondering why integrals had the term " \ ,dx " it is since the computer ignores spaces entirely and \, is a command of it's own which tells the computer to add a tiny spacing. 
+if you are also wondering why integrals had the term " \ ,dx " it is since the computer ignores spaces entirely and \ , is a command of it's own which tells the computer to add a tiny spacing. 
 
 **more on spacing**
 \, thin space
