@@ -150,10 +150,19 @@ if it needs to be an isolated term you can include curly brackets over the entir
 
 # aligning equations 
 
-use \begin{aligned} enter your equations and separate using the row breaker \\ and for which you want aligned put an & before it, for instance 
+use \begin{aligned} enter your equations and separate using the row breaker \\ and for which you want aligned put an & on the area you want aligned, for instance 
 
 \begin{aligned}x&=5+2\\ 
 \therefore x&=7\end{aligned}
 
 $$\begin{aligned}x&=5+2\\ 
-\therefore\x&=7\end{aligned}$$
+\therefore \ x&=7\end{aligned}$$
+
+notice how it makes this space in the first equation for x and =
+
+\begin{aligned}x=&5+2\\ 
+\therefore x&=7\end{aligned}
+
+$$\begin{aligned}x=&5+2\\ 
+\therefore \ x&=7\end{aligned}$$
+
