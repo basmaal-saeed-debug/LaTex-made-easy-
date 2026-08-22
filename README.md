@@ -54,10 +54,10 @@ Now for the symbols, backslash also needs to be used
 \beta 
 basically \anygreekletter
 
-*don't forget those delimiters!!*
+*for now I won't be using delimiters so my text does not get rendered so you can see it but don't forget those delimiters!* 
 
 **What is {}**
-curly brackets are used to 1. group numbers 2. define the arguments for previously stated commands. The other also matters since $$ \frac{1}{2} $$ is 1 over 2 and $$\frac{2}{1}$$ is 2 over 1. Generally the first argument is on top and the second argument will be on the bottom
+curly brackets are used to 1. group numbers 2. define the arguments for previously stated commands. The other also matters since \frac{1}{2} is 1 over 2 and \frac{2}{1} is 2 over 1. Generally the first argument is on top and the second argument will be on the bottom
 
 **superscript and subscript**
 ^ is used to say something is superscript or rather on top and _ is for subscript or rather something is under
