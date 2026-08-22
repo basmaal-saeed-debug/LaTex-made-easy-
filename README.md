@@ -28,7 +28,7 @@ This is when a quick symbol or variable needs to be embedded within a paragraph,
 **Display math** using $$ 
 This is when you have a massive important formula which needs to have its own dedicated space. It forces the equation to center on a brand new line creating a nice amount of breathing room around it. 
 
-**commands** in order to enter a command you must add a backslash when you start it (for short commands such as fractions) and sometimes before you end it (only for multi line workspaces such as a matrix or multiple aligned equations), for instance $$\frac{x}{y}$$ only needs a starting tag and $$\begin{matrix} ... \end{matrix}$$ needs an ending tag. 
+**commands** in order to enter a command you must add a backslash when you start it (for short commands such as fractions) and sometimes before you end it (only for multi line workspaces such as a matrix or multiple aligned equations), for instance \frac{x}{y} only needs a starting tag and $$\begin{matrix} ... \end{matrix}$$ needs an ending tag. 
 
 Different commands include: 
 
@@ -54,7 +54,7 @@ Now for the symbols, backslash also needs to be used
 \beta 
 basically \anygreekletter
 
-(*from now on I won't be including the delimiters so my text does not get rendered so you can see it but don't forget those delimiters!*)
+(*from now on, I won't be including the delimiters so my text does not get rendered so you can see it but don't forget those delimiters!*)
 
 **What is {}**
 curly brackets are used to 1. group numbers 2. define the arguments for previously stated commands. The other also matters since \frac{1}{2} is 1 over 2 and \frac{2}{1} is 2 over 1. Generally the first argument is on top and the second argument will be on the bottom
