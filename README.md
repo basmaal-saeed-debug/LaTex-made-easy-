@@ -20,5 +20,7 @@ Firstly before anything every symbol or equation must be wrapped with delimiters
 
 **Inline math** using $
 This is when a quick symbol or variable needs to be embedded within a paragraph, this ensures the rendered symbol stays flat and matches the text baseline without making those awkward spaces 
+
+
 **Display math** using $$ 
 This is when you have a massive important formula which needs to have its own dedicated space. It forces the equation to center on a brand new line creating a nice amount of breathing room around it. 
