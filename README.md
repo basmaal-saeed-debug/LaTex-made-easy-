@@ -82,5 +82,5 @@ if you are also wondering why integrals had the term " \,dx " it is since the co
 \qquad 2 character widths 
 
 and these are stackable unless you want to use the custom spacer
-for instance  $$x= 5 \hspace{3cm} \text{this gap is exactly three 3 cm wide}$$
+for instance  x= 5 \hspace{3cm} \text{this is a 3cm width space}
 
