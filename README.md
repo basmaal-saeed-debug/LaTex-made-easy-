@@ -113,3 +113,32 @@ a \equiv b  a is identically equal to b
 a \propto b  a is proportional to b
 
 (f \circ g)(x) composite functions
+
+# Matrix 
+
+use \begin{matrix} ... \end{matrix} 
+for instance 
+
+$$\begin{bmatrix}1&2&3 \\
+4&5&6 \\
+7&8&9 \end{bmatrix}$$
+
+matrix has different kinds of paranthesis you can use 
+{pmatrix} ()
+{bmatrix} []
+{Bmatrix} {}
+{vmatrix} ||
+{Vmatrix} || ||
+
+# Different parenthesis 
+
+\left\langle and \right\rangle are $$\left\langle\x\right\rangle$$
+
+\left( and \right) are ()
+
+then you can replace with ( with { or even [ 
+
+and these parenthesis stretch over the entire expression 
+
+if it needs to be an isolated term you can include curly brackets over the entire thing, just like those colors form earlier, for instance {\left( some symbol \right)}
+
