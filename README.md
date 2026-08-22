@@ -158,11 +158,5 @@ use \begin{aligned} enter your equations and separate using the row breaker \\ a
 $$\begin{aligned}x&=5+2\\ 
 \therefore \ x&=7\end{aligned}$$
 
-notice how it makes this space in the first equation for x and =
 
-\begin{aligned}x=&5+2\\ 
-\therefore x&=7\end{aligned}
-
-$$\begin{aligned}x=&5+2\\ 
-\therefore \ x=&7\end{aligned}$$
 
