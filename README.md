@@ -180,7 +180,8 @@ x&=5 \quad {text( so x equals 5)}
 
 this worked perfectly on my auto converter however it wont render on this readme file therefore there is an alternative where you can make that ghost symbol by writing it and multiplying it by 0
 
-$$\begin{aligned}0(\therefore)x&=5+2\\\therefore x&=7\end{aligned}$$
+
+$$\begin{aligned}0(\therefore)x&=5+2\\\thereforex&=7\end{aligned}$$
 
 
 also the command \begin{array}{ll} tells it to start two columns for instance 
