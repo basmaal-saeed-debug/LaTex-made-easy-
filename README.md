@@ -1,4 +1,4 @@
-# LaTex-made-easy-
+# LaTeX-made-easy-
 # Welcome! 
 This will be a really simple opensource library where I compile all the basics of LaTex, for anyone else who's also willing to learn how to use it, since writing math using standard 'insert' equations often leads to really distorted and poor notation. 
 heres a comparison, top is LaTex bottom is the 'insert equation' on google docs
