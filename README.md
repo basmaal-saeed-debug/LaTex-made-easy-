@@ -119,6 +119,12 @@ a \propto b  a is proportional to b
 use \begin{matrix} ... \end{matrix} 
 for instance 
 
+\begin{bmatrix}1&2&3 \\
+4&5&6 \\
+7&8&9 \end{bmatrix}
+
+which translates to 
+
 $$\begin{bmatrix}1&2&3 \\
 4&5&6 \\
 7&8&9 \end{bmatrix}$$
@@ -132,7 +138,7 @@ matrix has different kinds of paranthesis you can use
 
 # Different parenthesis 
 
-\left\langle and \right\rangle are $$\left\langle\x\right\rangle$$
+\left\langle and \right\rangle are $$\left\langle x \right\rangle$$
 
 \left( and \right) are ()
 
@@ -142,3 +148,10 @@ and these parenthesis stretch over the entire expression
 
 if it needs to be an isolated term you can include curly brackets over the entire thing, just like those colors form earlier, for instance {\left( some symbol \right)}
 
+# aligning equations 
+
+use \begin{aligned} enter your equations and separate using the row breaker \\ and for which you want aligned put an & before it, for instance 
+
+\begin{aligned} x&=5+2 \therefore x&=7 \end{aligned}
+
+$$\begin{aligned} x&=5+2 \therefore x&=7 \end{aligned}$$
