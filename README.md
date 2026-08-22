@@ -159,4 +159,5 @@ $$\begin{aligned}x&=5+2\\
 \therefore \ x&=7\end{aligned}$$
 
 
+$$\begin{aligned}&\quad&x+2&=7\\&\therefore&x&=5\end{aligned}$$
 
