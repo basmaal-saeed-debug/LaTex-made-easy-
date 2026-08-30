@@ -180,5 +180,47 @@ x&=5 \quad {text( so x equals 5)}
 
 this worked using my auto LaTeX converter but it does not work here for some reason, even coloring the symbol white did not work. We must move on
 
+# Arrows
+\rightarrow
+
+\leftarrow 
+
+\longrightarrow
+
+\longleftarrow
+
+\oversett{}{} places what was in the first curly brackets on top of what was on the second curly brackets
+
+# Using LaTeX for chemistry 
+
+LaTeX is also of great importance if your goal is to write anything chemistry related, a chemistry pack can be used which is really helpful since it follows IUPAC typography standards
+
+Writing \ce{anychemicalequation!} between the delimiters is all it takes to get the pack, at least if you are using a auto converter. 
+It ensures your chemical symbols are Roman and not italicised as they usually would be when writing math
+when using this there is no longer a need to put _ when assigning subscript. 
+
+**Arrows and dynamics (works for chemistry only)**
+->
+<- 
+<=> 
+<-> 
+v (precipitation descriptor)
+^ 
+**Ionic charges and electron indicators**
+Na+ or any element other than Na, indicates a simple ion
+Cl-
+So4^2- polyatomic ion ^ is for superscript 
+e- free electron 
+
+**Stuff is over the arrow**
+
+-> [100^\circ\text{C}] hundred celsius
+-> [MnO2] some catalyst 
+
+normal mathematics works in this mode as well, including all possible symbols. 
+
+$$\ce{Na2S2O3(aq) + 2HCl(aq)->2NaCl(aq) + SO2(g) + S(s) + H2O(l)}$$
+
+
 
 
